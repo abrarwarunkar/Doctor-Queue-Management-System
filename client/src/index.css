@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+.queue-card {
+  transition: all 0.3s ease;
+}
+
+.queue-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.patient-card {
+  border-left: 5px solid #007bff;
+}
+
+.patient-card.in-progress {
+  border-left: 5px solid #ffc107;
+}
+
+.patient-card.completed {
+  border-left: 5px solid #28a745;
+}
+
+.doctor-header {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.queue-status {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
